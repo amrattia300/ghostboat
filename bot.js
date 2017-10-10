@@ -10,10 +10,6 @@ client.on('message', message => {
     	message.reply('pong');
   	}
 });
-client.on('message', message => {
-    if (message.content === 'fuck') {
-    	message.reply('you');
-  	}
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
