@@ -7,13 +7,13 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'wina') {
-    	message.reply('Hello Biotefoul (;');
+    	message.reply('Only being blonde left other than that always say... "Hello Biotefoul" :kekw:');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'wina') {
-    	message.reply('Hello Biotefoul (;');
+    if (message.content === 'Fischi') {
+    	message.reply('He is the real blonde abuser :kekcam:');
   	}
 });
 
