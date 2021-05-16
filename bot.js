@@ -35,5 +35,17 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'Hamouti') {
+    	message.reply('Take care ladies, Hamouti shot gurls down, pew pew');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Max') {
+    	message.reply('The one and only Ape Trader, CEO and Founder of Ape Trading Co.');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
