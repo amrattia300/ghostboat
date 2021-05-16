@@ -49,7 +49,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'Papryka') {
-    	message.reply('Still working on it...');
+    	message.reply('y!hug everyone, come here habibos');
   	}
 });
 
