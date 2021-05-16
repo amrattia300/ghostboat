@@ -17,5 +17,12 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'Oliwia') {
+    	message.reply('The Real Ape, A good quality fake blonde ape');
+  	}
+});
+
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
