@@ -29,5 +29,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'Turtle') {
+    	message.reply('"I'm Turtle but I'm not lost" he says, he trade gurls for living they say');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
