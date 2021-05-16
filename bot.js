@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'wina') {
+    if (message.content === 'Wina') {
     	message.reply('Only being blonde left other than that always say... "Hello Biotefoul" (;');
   	}
 });
@@ -19,7 +19,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'Oliwia') {
-    	message.reply('The Real Ape, A good quality fake blonde ape');
+    	message.reply('The Real Ape, a good quality half-blonde ape');
   	}
 });
 
@@ -44,6 +44,12 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === 'Max') {
     	message.reply('The one and only Ape Trader, CEO and Founder of Ape Trading Co.');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Papryka') {
+    	message.reply('Still working on it...');
   	}
 });
 
