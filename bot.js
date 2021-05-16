@@ -25,7 +25,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'Steven') {
-    	message.reply('Two words, our HOMIE');
+    	message.reply('Two words, our HOMIE (aka The Cockzilla)');
   	}
 });
 
