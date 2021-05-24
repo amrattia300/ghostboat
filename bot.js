@@ -65,5 +65,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'y!sex pysia') {
+    	message.reply(' https://m0.her.ie/wp-content/uploads/2015/12/04152731/Sex-gif.gif');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
